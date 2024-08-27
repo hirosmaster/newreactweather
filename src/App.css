@@ -1,7 +1,14 @@
-a {
+.App {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.App a {
   color: darkblue;
 }
 
-footer {
+.App footer {
   color: palevioletred;
+  margin: 30px;
+  font-size: 12px;
 }
