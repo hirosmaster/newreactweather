@@ -1,22 +1,24 @@
 .Weather {
-  border: 1px solid black;
+  border: 1px solid rgb(116, 116, 183);
   font-family: Arial, Helvetica, sans-serif;
-  padding: 16px;
+  padding: 20px;
   margin: 30px;
   border-radius: 6px;
 }
 
 .search-form {
-  border: 1px solid black;
+  border: 1px solid rgb(116, 116, 183);
   border-radius: 5px;
   width: 250px;
+  padding: 0 0 0 5px;
 }
 
 .button {
-  border: 1px solid black;
+  border: 1px solid palevioletred;
   border-radius: 5px;
-  background: pink;
-  margin-left: 10px;
+  background: white;
+  color: palevioletred;
+  margin-left: 20px;
 }
 
 #header {
@@ -24,7 +26,7 @@
 }
 
 .Weather h1 {
-  color: darkblue;
+  color: rgb(41, 41, 196);
   line-height: 28px;
   font-weight: bold;
   font-size: 50px;
@@ -33,14 +35,20 @@
 }
 
 .Weather img {
-  background: blue;
   height: 80px;
 }
 
 .Weather .temp {
-  background: yellow;
-  line-height: 80px;
-  font-size: 50px;
+  font-size: 60px;
+  color: rgb(41, 41, 196);
+}
+
+.Weather .tempUnit {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  top: -30px;
+  color: rgb(41, 41, 196);
 }
 
 .Weather li {
@@ -48,9 +56,11 @@
   font-weight: 100;
   text-align: left;
   list-style: none;
+  color: rgb(116, 116, 183);
 }
 
 .Weather ul {
   margin: 0;
   padding: 0;
+  margin-bottom: 15px;
 }
